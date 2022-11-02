@@ -1,0 +1,343 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Light-webfont.woff') format('woff');
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.8em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.8em;
+  color: #dcdcdc;  
+  background-image: 
+    url(./images/mdf/material-font-Z.png),
+    url(./images/mdf/material-font-E.png),
+    url(./images/mdf/material-font-N.png),
+    url(./images/png-patterns/storm.png), 
+    linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.5718881302521008) 50%, rgba(252,176,69,1) 100%);  
+  background-repeat: 
+  no-repeat,
+  no-repeat,
+  no-repeat, 
+  repeat, 
+  no-repeat;
+  background-position: 
+  top 100px left 15px, 
+  top 240px left 15px,
+  top 380px left 15px,
+  50% 50%, 
+  50% 50%;
+  background-size: 
+  105px, 
+  105px,
+  105px,
+  600px, 
+  cover;
+}
+
+a {
+  color: #e6d2d2;
+}
+
+
+
+
+
+
+
+
+
+
+
+body .extra1 {
+  background-image: url(./images/mdf/material-font-Z.png);
+  background-size: 200px;
+  background-position: 100px, 100px;
+}
+
+.page-wrapper {
+  background-color: rgba(239, 239, 239, 0.945);
+  padding: 30px;
+  max-width: 1200px;
+  margin-left: 130px;
+  margin-top: 100px;
+}
+
+.summary a:nth-child(1){
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(131, 32, 184, 0.354);
+  background-image: url(./images/icons/file-download.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: right 6px center;
+  padding-right: 30px;
+}
+
+.summary a:nth-child(2){
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(131, 32, 184, 0.354);
+  background-image: url(./images/icons/css.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: right 6px center;
+  padding-right: 30px;
+}
+
+footer {
+  flex: content;
+  flex-direction: row;
+  justify-content: space-evenly;  
+}
+
+.zen-validate-html {
+  color: transparent;
+  border-radius: 5px;
+  background-color: rgba(184, 98, 32, 0.354);
+  background-image: url(./images/icons/html.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 11px 16px;
+  padding: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.zen-validate-css {
+  color: transparent;
+  border-radius: 5px;
+  background-color: rgba(184, 98, 32, 0.354);
+  background-image: url(./images/icons/css.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 11px 16px;
+  padding: 20px;
+  padding-left: 10px;
+  padding-right: 4px;
+}
+.zen-license {
+  color: transparent;
+  border-radius: 5px;
+  background-color: rgba(184, 98, 32, 0.354);
+  background-image: url(./images/icons/creative.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 11px 16px;
+  padding: 20px;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+.zen-accessibility {
+  color: transparent;
+  border-radius: 5px;
+  background-color: rgba(184, 98, 32, 0.354);
+  background-image: url(./images/icons/accessibility.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 11px 16px;
+  padding: 20px;
+  padding-left: 10px;
+  padding-right: 0px;
+}
+.zen-github {
+  color: transparent;
+  border-radius: 5px;
+  background-color: rgba(184, 98, 32, 0.354);
+  background-image: url(./images/icons/github.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 11px 16px;
+  padding: 20px;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  grid-template-areas:
+	"h h h"
+	"m m s"
+	"m m s";
+  background-color: #003049;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.main {
+  grid-area: m;
+}
+
+.intro {
+  grid-area: h;
+  background-color: #0091ad;
+}
+
+.sidebar {
+  grid-area: s;
+  background-color: #b7094c;
+}
+
+.preamble {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  grid-template-areas:
+	"a a a"
+	"b c d";
+  background-color: ;
+}
+
+.preamble h3 {
+  background-color: #1780a1;
+  grid-area: a;
+}
+
+.preamble p{
+  background-color: #2e6f95;
+  grid-area: b;
+}
+.preamble p:nth-child(2) {
+  background-color: #455e89;
+  grid-area: c;
+}
+.preamble p:nth-child(3) {
+  background-color: #5c4d7d;
+  grid-area: d;
+}
+
+.explanation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 1em;
+  grid-column-gap: 1em;
+  grid-template-areas: 
+  "e e"
+  "f g";
+}
+
+.explanation h3 {
+  grid-area: e;
+  background-color: #723c70;
+}
+
+.explanation p{
+  grid-area: f;
+  background-color: #892b64;
+}
+.explanation p:nth-child(2) {
+  grid-area: g;
+  background-color: #a01a58;
+}
+
+
+@media screen and (max-width: 800px) {
+  .page-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    grid-template-areas:
+    "h h h"
+    "m m m"
+    "s s s";
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .page-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    grid-template-areas:
+    "h h h"
+    "m m m"
+    "s s s";
+  }
+
+
+  .preamble {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    grid-template-areas:
+    "a a"
+    "b c"
+    "d d";
+  }
+
+  .explanation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 1em;
+    grid-column-gap: 1em;
+    grid-template-areas: 
+    "e e"
+    "f g";
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  .page-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    grid-template-areas:
+    "h h"
+    "m m"
+    "s s";
+  }
+
+  .preamble {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    grid-template-areas:
+    "a"
+    "b"
+    "c"
+    "d";
+  }
+
+  .explanation {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 1em;
+    grid-column-gap: 1em;
+    grid-template-areas: 
+    "e"
+    "f"
+    "g";
+  }
+
+
+}
