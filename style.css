@@ -4,7 +4,6 @@
 
 body {
   font-family: 'Montserrat',serif;
-  /* font-family: 'Open Sans',serif; */
   font-size: 16px;
   line-height: 1.8em;
   font-size: 18px;
@@ -176,7 +175,6 @@ footer {
 
 .intro {
   grid-area: h;
-  /* background-color: #0091ad; */
 }
 
 .intro h1 {
@@ -192,7 +190,6 @@ footer {
 }
 
 .summary {
-  /* background-color: #5e6162; */
   padding: 1vh 0 1vh 10vh;
   font-size: 1rem;
   max-width: 300px;
@@ -304,7 +301,6 @@ INTRO
   grid-template-areas:
 	"a a a"
 	"b c d";
-  /* background-color: white; */
   padding-top: 20vh;
   padding-bottom: 20vh;
   padding-left: 2em;
@@ -313,25 +309,20 @@ INTRO
 }
 
 .preamble h3 {
-  /* background-color: #1780a1; */
   font-size: 4em;
   line-height: 1em;
   grid-area: a;
   height: 20vh;
   text-align: center;
-  /* border: 1px red solid; */
 }
 
 .preamble p{
-  /* background-color: #2e6f95; */
   grid-area: b;
 }
 .preamble p:nth-child(2) {
-  /* background-color: #455e89; */
   grid-area: c;
 }
 .preamble p:nth-child(3) {
-  /* background-color: #5c4d7d; */
   grid-area: d;
 }
 /* 
